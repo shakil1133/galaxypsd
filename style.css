@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+header{
+display: flex;
+width: 80%;
+padding: 15px;
+justify-content: space-between;
+margin-right: 10%;
+margin-left: 10%;
+background-color: #ffffff;
+}
+
+.banner{
+    background-color: #aa5903d9;
+    padding: 160px;
+    text-align: center;
+}
+.h1{
+    font-size: 32.38px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 35px;
+}
+h3{
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+
+
+.learn-more{
+    background-color: #fb6e52;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    text-align: center;
+    
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.learn-more a{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* design section */
+.design-sec{
+    display: flex;
+    width: 80%;
+    padding: 15px;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.design1 img{
+    background-color: #fb6e52;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.roboto{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #292c34ea;
+    padding-top: 15px;
+}
+.design-sec p{
+    color: #97999b;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.design-sec img{
+    margin-left: 33.33%; 
+}
+
+#red{
+    text-align: center;
+    color: #fb6e52;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.phoneimg{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.phoneimg img{
+ height: 150px;
+ width: 300px;
+ margin-left: 45%; 
+}
+.phoneimg p{
+color: #97999b;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 70%;
+}
+.phoneimg h4{
+color: #292c34;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 70%;
+padding-bottom: 10px;
+}
+
+#blog{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px ;
+    background-color: #f9f9f9;
+}
+.blog{
+display: flex;
+width: 80%;
+justify-content: space-between;
+background-color: #f9f9f9;
+padding-left: 17%;
+
+}
+.blog h5{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#292c34 ;
+    font-size: 20px;
+}
+.blog img{
+    height: 283px;
+    width: 350px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+.blog h1{
+    color: #fb6e52;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.blog p{
+    color: #97999b;
+    font-size: 15px;
+    padding-bottom: 55px;
+}
+/* footer section */
+footer{
+    background: #292c34;
+    height: 80px;
+
+}
+
+.last img {
+    margin: 25px 0px 0px 135px;
+}
+.last ul {
+    list-style: none;
+    width: 26%;
+    margin: -31px 6px 0px 205px;
+}
+.last ul li{
+
+}
+.last ul li a{
+    text-decoration: none;
+    color: #797c82;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.icon {
+    display: flex;
+    justify-content: end;
+    width: 90%;
+    margin-top: -15px;
+}
+.icon ul{
+    list-style: none;
+    display: flex;
+
+
+}
+.icon ul li{
+
+
+}
+.icon ul li a {
+    color: #3d3d3d;
+    padding: 0px 30px;
+    color:white;
+}
